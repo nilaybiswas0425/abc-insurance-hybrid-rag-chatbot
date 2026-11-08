@@ -195,19 +195,8 @@ Both answers included a source citation marker. These tests confirm
 retrieval of the expected deductible information from the indexed
 policy.
 
-## 7. Security and cost notes
 
--   S3 Block Public Access remains enabled.
--   The S3 bucket and vector storage use SSE-S3 encryption.
--   Do not commit AWS access keys, secret keys, session tokens, database
-    passwords, API keys or private connection strings to GitHub.
--   Redact the AWS account ID, console login alias, full ARNs and any
-    database endpoint or credentials from public screenshots.
--   Review current AWS pricing and remove lab resources when the project
-    is finished. Storage, vector storage and model invocation may incur
-    charges.
-
-## 8. Screenshots
+## 7. Screenshots
 
 Store module screenshots in `screenshots/03-s3-bedrock/`.
 
@@ -216,19 +205,20 @@ Store module screenshots in `screenshots/03-s3-bedrock/`.
   --------------------------------------------------- -----------------------------------
   `01-s3-policy-document-uploaded.png`                Sample PDF uploaded to S3
 
-  `02-s3-bucket-properties-encryption-security.png`   S3 security and encryption
-                                                      properties
-
   `03-s3-vector-bucket-created.png`                   S3 Vector bucket
 
   `04-s3-vector-index-created.png`                    Vector index configuration
 
-  `04-bedrock-knowledge-base-created.png`             Knowledge Base overview
+  `05-Knowledge-Base-(KB)-with-vector-store.png`      Knowledge Base overview\
 
-  `05-bedrock-policy-document-sync-success.png`       Successful synchronization and
+  `06-Knowledge-Base-(KB)-with-vector-store.png`      Knowledge Base overview
+
+  `07-Knowledge-Base-(KB)-with-vector-store.png`      Knowledge Base overview
+
+  `08-bedrock-policy-document-sync-success.png`       Successful synchronization and
                                                       indexed document
 
-  `06-bedrock-knowledge-base-retrieval-tests.png`     Retrieval test answers
+  `09-01-bedrock-knowledge-base-retrieval-tests.png`     Retrieval test answers
   ---------------------------------------------------------------------------------------
 
 Use the actual final screenshots and filenames in the repository. The
@@ -246,8 +236,3 @@ The document-retrieval pipeline is operational:
     metadata.
 5.  The Knowledge Base retrieves the correct collision and comprehensive
     deductible information in the validation tests.
-
-**Next module:** Load the synthetic customer, policy, claim and payment
-records into the existing Amazon RDS for PostgreSQL database. The Python
-Hybrid RAG application will later combine PostgreSQL results with
-Bedrock Knowledge Base retrieval.
