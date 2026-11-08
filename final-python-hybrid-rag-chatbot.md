@@ -127,7 +127,7 @@ than hardcoding passwords in source code.
   Variable          Purpose
   ----------------- ------------------------------------
   `AWS_REGION`      AWS Region, `us-east-1`
-  `BEDROCK_KB_ID`   Knowledge Base ID, `E1RNVKEBQF`
+  `BEDROCK_KB_ID`   Knowledge Base ID, `xxxx`
   `RDS_HOST`        RDS PostgreSQL endpoint
   `RDS_PORT`        PostgreSQL port, `5432`
   `RDS_DB_NAME`     Database name, `abc_insurance`
