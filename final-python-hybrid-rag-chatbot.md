@@ -5,7 +5,7 @@
 **Project:** ABC Insurance Hybrid RAG Chatbot\
 **Module:** 04 --- Python Hybrid RAG Chatbot\
 **AWS Region:** `us-east-1`\
-**Knowledge Base ID:** `E1RNVKEBQF`\
+**Knowledge Base ID:** `xxxxx`\
 **Database:** Amazon RDS for PostgreSQL --- `abc_insurance`
 
 ------------------------------------------------------------------------
